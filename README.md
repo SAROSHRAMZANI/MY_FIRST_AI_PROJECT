@@ -1,23 +1,17 @@
 # My First AI Project 🚀
 
-This project is a **Next.js 15 app** powered by **Google Generative AI (Gemini)** using the [AI SDK](https://sdk.vercel.ai).  
-It provides a simple chat interface that streams AI responses in real time.
-## 📦 Tech Stack
-- [Next.js 15](https://nextjs.org/) (with Turbopack)
-- [Node.js 22](https://nodejs.org/en)
-- [AI SDK](https://sdk.vercel.ai)
-- [@ai-sdk/google](https://www.npmjs.com/package/@ai-sdk/google)
+This is a simple **Next.js app** that uses **Google Generative AI (Gemini)** for chat responses.
 
-Project Structure
-my-app/
-│── app/
-│   ├── api/
-│   │   └── chat/
-│   │       └── route.ts   # API endpoint for chat
-│   ├── page.tsx           # Chat UI
-│── public/                # Static assets
-│── package.json
-│── pnpm-lock.yaml
-│── .env.local             # API keys (ignored in Git)
-│── README.md
+## ⚙️ Setup
+
+1. Install dependencies:
+   ```bash
+   npm install
+2. Create a .env.local file and add your API key
+GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
+
+3.npm run dev
+
+4.Open http://localhost:3000
+ in your browser
 
